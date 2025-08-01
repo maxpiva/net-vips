@@ -3,7 +3,7 @@
   <metadata>
 
     <!-- package -->
-    <id>Unoffical.Experimental.NetVips.Native</id>
+    <id>Unofficial.Experimental.NetVips.Native</id>
     <title>NetVips - Native binaries</title>
     <version>$version$</version>
     <description>This package complements the NetVips package and contains [EXPERIMENTAL] native binaries [With JpegLI, Jpeg2000 and JXL] of libvips</description>
@@ -22,21 +22,21 @@
     <!-- dependencies -->
     <dependencies>
       <group targetFramework="net6.0">
-        <dependency id="NetVips.Native.linux-x64" version="$version$" include="native" />
-        <dependency id="NetVips.Native.linux-musl-x64" version="$version$" include="native" />
-        <dependency id="NetVips.Native.linux-musl-arm64" version="$version$" include="native" />
-        <dependency id="NetVips.Native.linux-arm" version="$version$" include="native" />
-        <dependency id="NetVips.Native.linux-arm64" version="$version$" include="native" />
-        <dependency id="NetVips.Native.osx-x64" version="$version$" include="native" />
-        <dependency id="NetVips.Native.osx-arm64" version="$version$" include="native" />
-        <dependency id="NetVips.Native.win-x64" version="$version$" include="native" />
-        <dependency id="NetVips.Native.win-x86" version="$version$" include="native" />
-        <dependency id="NetVips.Native.win-arm64" version="$version$" include="native" />
+        <dependency id="Unofficial.Experimental.NetVips.Native.linux-x64" version="$version$" include="native" />
+        <dependency id="Unofficial.Experimental.NetVips.Native.linux-musl-x64" version="$version$" include="native" />
+        <dependency id="Unofficial.Experimental.NetVips.Native.linux-musl-arm64" version="$version$" include="native" />
+        <dependency id="Unofficial.Experimental.NetVips.Native.linux-arm" version="$version$" include="native" />
+        <dependency id="Unofficial.Experimental.NetVips.Native.linux-arm64" version="$version$" include="native" />
+        <dependency id="Unofficial.Experimental.NetVips.Native.osx-x64" version="$version$" include="native" />
+        <dependency id="Unofficial.Experimental.NetVips.Native.osx-arm64" version="$version$" include="native" />
+        <dependency id="Unofficial.Experimental.NetVips.Native.win-x64" version="$version$" include="native" />
+        <dependency id="Unofficial.Experimental.NetVips.Native.win-x86" version="$version$" include="native" />
+        <dependency id="Unofficial.Experimental.NetVips.Native.win-arm64" version="$version$" include="native" />
       </group>
       <group targetFramework="net452">
         <!-- Only .NET Framework needs to include the build directory containing the .targets file -->
-        <dependency id="NetVips.Native.win-x64.net452" version="$version$" include="native, build" />
-        <dependency id="NetVips.Native.win-x86.net452" version="$version$" include="native, build" />
+        <dependency id="Unofficial.Experimental.NetVips.Native.win-x64.net452" version="$version$" include="native, build" />
+        <dependency id="Unofficial.Experimental.NetVips.Native.win-x86.net452" version="$version$" include="native, build" />
       </group>
     </dependencies>
 

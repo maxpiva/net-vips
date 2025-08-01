@@ -3,7 +3,7 @@
   <metadata>
 
     <!-- package -->
-    <id>Unoffical.Experimental.NetVips.Native.linux-musl-x64</id>
+    <id>Unofficial.Experimental.NetVips.Native.linux-musl-x64</id>
     <title>NetVips - Native binaries for Linux musl x64</title>
     <version>$version$</version>
     <description>This package complements the NetVips package and contains [EXPERIMENTAL] native binaries [With JpegLI, Jpeg2000 and JXL] of libvips for Linux musl (x64)</description>

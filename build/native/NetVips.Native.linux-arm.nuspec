@@ -3,7 +3,7 @@
   <metadata>
 
     <!-- package -->
-    <id>Unoffical.Experimental.NetVips.Native.linux-arm</id>
+    <id>Unofficial.Experimental.NetVips.Native.linux-arm</id>
     <title>NetVips - Native binaries for Linux ARMv7</title>
     <version>$version$</version>
     <description>This package complements the NetVips package and contains [EXPERIMENTAL] native binaries [With JpegLI, Jpeg2000 and JXL] of libvips for Linux (ARMv7)</description>
