@@ -3,10 +3,10 @@
   <metadata>
 
     <!-- package -->
-    <id>NetVips.Native.linux-musl-arm64</id>
+    <id>Unoffical.Experimental.NetVips.Native.linux-musl-arm64</id>
     <title>NetVips - Native binaries for Linux musl ARM64v8</title>
     <version>$version$</version>
-    <description>This package complements the NetVips package and contains native binaries of libvips for Linux musl (ARM64v8)</description>
+    <description>This package complements the NetVips package and contains [EXPERIMENTAL] native binaries [With JpegLI, Jpeg2000 and JXL] of libvips for Linux musl (ARM64v8)</description>
     <summary>Native binaries of libvips for Linux musl (ARM64v8)</summary>
     <projectUrl>https://kleisauke.github.io/net-vips</projectUrl>
     <repository type="git" url="https://github.com/kleisauke/net-vips" commit="$commit$" />

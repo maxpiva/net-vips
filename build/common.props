@@ -1,15 +1,15 @@
 <Project>
   <PropertyGroup>
     <Product>NetVips</Product>
-    <Description>.NET binding for libvips</Description>
+    <Description>.NET binding for libvips (Experimental with jpegli, jpeg2000 and jxl)</Description>
     <Copyright>Kleis Auke Wolthuizen</Copyright>
     <NeutralLanguage>en-US</NeutralLanguage>
-    <Authors>Kleis Auke Wolthuizen</Authors>
+    <Authors>Kleis Auke Wolthuizen; Maximo Piva</Authors>
     <PackageTags>libvips;bindings;image-processing</PackageTags>
     <PackageProjectUrl>https://kleisauke.github.io/net-vips</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/kleisauke/net-vips</RepositoryUrl>
+    <RepositoryUrl>https://github.com/maxpiva/net-vips</RepositoryUrl>
 
     <CLSCompliant>false</CLSCompliant>
     <ComVisible>false</ComVisible>

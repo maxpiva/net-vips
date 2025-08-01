@@ -3,13 +3,13 @@
   <metadata>
 
     <!-- package -->
-    <id>NetVips.Native.linux-x64</id>
+    <id>Unoffical.Experimental.NetVips.Native.linux-x64</id>
     <title>NetVips - Native binaries for Linux x64</title>
     <version>$version$</version>
-    <description>This package complements the NetVips package and contains native binaries of libvips for Linux (x64)</description>
+    <description>This package complements the NetVips package and contains [EXPERIMENTAL] native binaries [With JpegLI, Jpeg2000 and JXL] of libvips for Linux (x64)</description>
     <summary>Native binaries of libvips for Linux (x64)</summary>
     <projectUrl>https://kleisauke.github.io/net-vips</projectUrl>
-    <repository type="git" url="https://github.com/kleisauke/net-vips" commit="$commit$" />
+    <repository type="git" url="https://github.com/maxpiva/net-vips" commit="$commit$" />
     <tags>libvips binaries image-processing</tags>
 
     <!-- legal -->

@@ -37,7 +37,7 @@ partial class Build : NukeBuild
     AbsolutePath PackingDirectory => RootDirectory / "build/native/pack";
     AbsolutePath DownloadDirectory => RootDirectory / "download";
 
-    string VipsVersion => Environment.GetEnvironmentVariable("VIPS_VERSION");
+    string VipsVersion => Environment.GetEnvironmentVariable("VIPS_VERSION") ?? "8.17.1";
 
     string[] NuGetArchitectures =>
     [
@@ -99,7 +99,7 @@ partial class Build : NukeBuild
                 var fileName = $"libvips-{VipsVersion}-{architecture}.tar.gz";
                 var tarball =
                     new Uri(
-                        $"https://github.com/kleisauke/libvips-packaging/releases/download/v{VipsVersion}/{fileName}");
+                        $"https://github.com/maxpiva/libvips-packaging/releases/download/v{VipsVersion}/{fileName}");
 
                 var filePath = DownloadDirectory / fileName;
                 if (!File.Exists(filePath))
